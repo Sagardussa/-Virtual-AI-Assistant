@@ -323,9 +323,9 @@ function Home() {
           Customize Your Assistant
         </button>
 
-        {/* <div className="w-[300px] h-[400px] flex justify-center items-center overflow-hidden shadow-lg rounded-4xl">
+        <div className="w-[300px] h-[400px] flex justify-center items-center overflow-hidden shadow-lg rounded-4xl">
           <img src={userData?.assistantImage} className="h-full object-cover" />
-        </div> */}
+        </div>
         <h1 className="text-white text-[18px] ">
           I'm {userData.assistantName}
         </h1>
